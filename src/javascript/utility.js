@@ -1,12 +1,7 @@
-var api = {
-    key: 1116151381,
-    keyfrom : "youdaocidian"
-};
-
 var urls = {
-    dict : "http://fanyi.youdao.com/openapi.do?keyfrom=" + api.keyfrom +"&key="+ api.key +"&type=data&doctype=json&version=1.1&q=",
+    dict : "http://fanyi.youdao.com/openapi.do?type=data&doctype=json&version=1.1&relatedUrl=http%3A%2F%2Ffanyi.youdao.com%2Fopenapi%3Fpath%3Dweb-mode&keyfrom=test&key=null&translate=on&q=",
     voice : "http://dict.youdao.com/dictvoice?audio=",
-    dictHttps : "https://fanyi.youdao.com/openapi.do?keyfrom=" + api.keyfrom +"&key="+ api.key +"&type=data&doctype=json&version=1.1&q=",
+    dictHttps : "https://fanyi.youdao.com/openapi.do?type=data&doctype=json&version=1.1&relatedUrl=http%3A%2F%2Ffanyi.youdao.com%2Fopenapi%3Fpath%3Dweb-mode&keyfrom=test&key=null&translate=on&q=",
     voiceHttps : "https://dict.youdao.com/dictvoice?audio=",
 };
 
